@@ -1,0 +1,176 @@
+
+body {
+    margin:0;
+}
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #333;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+  }
+  .SignIn-bg {
+    background-image:url("netflix-card1-bg.png");
+    width: 100%;
+    height: 1108px;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+.header-SignIn {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.SignIn-overall {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.SignIn-signUp-box {
+    width: 450px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.75);
+    position: absolute;
+    top: 60px;
+}
+.SignIn-box {
+    width: 314px;
+    height: 344px;
+}
+.Em-input .Psword-input {
+    width:314px;
+    height: 50px;
+    background-color: #333333;
+}
+.form-login {
+    text-align:center;
+    height: 233px;
+}
+.SignUp-box {
+    width:314px;
+    height:216px;
+}
+.Em-input-box {
+    width: 314px;
+    height: 48px;
+    background-color: #333333;
+    border-style: none;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.Ps-input-box {
+    margin-top: 16px;
+    width: 314px;
+    height: 48px;
+    background-color: #333333;
+    border-style: none;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.Button-signIn {
+    margin-top: 16px;
+    width: 331px;
+    height: 50px;
+    margin-top: 35px;
+    background-color: #D6000F;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.remmemberMe {
+    margin-left: -5px;
+    color:#b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.needHelp {
+    position: relative;
+    left: 260px;
+    top: -15px;
+    color:#b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+}
+.LogFacebook {
+    position: relative;
+    top: 30px;
+    left: -5px;
+}
+.LogFacebookText {
+    font-size: 13px;
+    color: #737373;
+    position: relative;
+    top: 5px;
+    left: 10%;
+}
+.NewMem{
+    position: relative;
+    top: 10%;
+    color: #737373;
+
+}
+.SignNewMem {
+    position: relative;
+    top: 4px;
+    left: 37%;
+    color:white;
+    font-size: 16px;
+}
+.MemProtect {
+    position: relative;
+    font-size: 13px;
+    color:#8C8C8C;
+}
+.moreMem {
+    position: relative;
+    top: -13.5;
+    left: 43%;
+    background-color: transparent;
+    color: #0071eb;
+    border-style: none;
+}
+.wrap-Footer {
+    position: absolute;
+    bottom: -4px;
+    width: 100%;
+    height: 258px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,.75);
+}
+.Footer {
+    width: 1000px;
+    height: 238px;
+}
+.footer-list {
+    margin-top: 3%;
+    list-style: none;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    color: #757575;
+    font-size: 13px;
+}
+.moreQuest {
+    font-size: 16px;
+    color: #757575;
+    margin-left: 36px;
+    margin-top: 40px;
+}

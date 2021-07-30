@@ -1,0 +1,401 @@
+
+body {
+    margin:0;
+}
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #333;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+  }
+.overall-header {
+    background-color: #000;
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    height: 5rem;
+    z-index: 10;
+}
+.header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.wrap-select-SignIn{
+    align-items: flex-end;
+    margin-right: 20px;
+}
+.linktoSignIn {
+    color: inherit;
+    border: 1px #D6000F;
+    background: #D6000F;
+    border-radius: 5px;
+    text-align:center;
+    margin-left:15px;
+    padding: 7px 17px;
+    text-decoration: none;
+}
+.langauge-switcher::before{
+    content: "\f0ac";
+}
+.langauge-switcher {
+    width: 94px;
+    height: 36px;
+    background: transparent;
+    color: inherit;
+    font-size: 12px;
+}
+.select-bd {
+    border: 1px white;
+}
+.wrap-bg {
+    background-image:url("netflix-card1-bg.png");
+    width: 100%;
+    height: 706px;
+    position: relative;
+    z-index: 0;
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.bg {
+    position: relative;
+}
+.select-lan {
+    flex-basis: 50px;
+}
+.card1 {
+    margin-top: 70px;
+}
+.text-card1 {
+    position: relative;
+    top: 150px;
+}
+.h1-card1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 425px;
+}
+.h2-card1 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: lighter;
+}
+.h3-card1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+}
+.card2 {
+    position: relative;
+    top: -90px;
+    width: 100%;
+    height: 473px;
+    background: black;
+}
+.formGet {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.buttonGetstart {
+    color: white;
+    font-size: 26px;
+}
+button {
+    background: #E50914;
+    border-radius: 0;
+    width: 214px;
+    height: 66px;
+    border: none;
+}
+.insertEmail input {
+    width: 450px;
+    height: 60px;
+}
+.card2 {
+    width: 100%;
+    height: 473px;
+}
+.EnjoyTV {
+    display: flex;
+    justify-content: center;
+    height: 325px;
+    padding: 70px 45px;
+}
+.EnjoyTVtext {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 590px;
+    height: 180px;
+    padding-left: 5px;
+}
+.TV {
+    width: 506;
+    height: 325px;
+}
+.h1-card2 {
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 0 0 5px;
+    padding-right: 5px;
+}
+.h2-card2 {
+    font-size: 26px;
+    color: #FFFFFF;
+    margin: 20px 0 5px;
+    font-weight:lighter;
+}
+.TVvideo{
+    display: flex;
+    width: 530px;
+    height: 397px;
+    margin-top: -70px;
+    margin-right: 30px; 
+}
+.TVpicture {
+    width: 530px;
+    height: 397px;
+    margin-right: 30px; 
+}
+video {
+    width: 387px;
+    height: 216px;
+    position: relative;
+    right: 127%;
+    top: 21%;
+}
+.card3 {
+    width: 100%;
+    height: 470px;
+    background:black;
+    position: relative;
+    top: -80px;
+}
+.downloadShow {
+    display: flex;
+    justify-content: center;
+    height: 322px;
+    padding: 70px 45px;
+}
+.strangerThing {
+    display: flex;
+    width: 505px;
+    height: 322px;
+    position: relative;
+    right: -5px;
+}
+.eleven11 {
+    width: 505px;
+    height: 378px;
+    position: relative;
+    top: -10%;
+}
+.elevenBoxshot {
+    width: 330px;
+    height: 72px;
+    display: flex;
+    position: relative;
+    right: 78%;
+    top:70%;
+    padding: 8px 12px;
+    margin: 0px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius:  10px;
+    background-color: black;
+}
+.coverBoxshotPic {
+    width: 51px;
+    height: 72px;
+    box-shadow: 1px;
+}
+.boxshotText {
+    width: 187px;
+    height: 39px;
+    margin-left: 20px;
+}
+.boxshotText1 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.boxshotText2 {
+    font-size: 14.4px;
+    margin-bottom: 20px;
+}
+.showText1 {
+    font-size: 50px;
+    margin: 0px 0px 8px;
+}
+.showText2 {
+    font-size: 26px;
+    font-weight:lighter;
+    margin: 19px 0px 6px;
+}
+.downloadShowText {
+    margin-top: 80px;
+    margin-left: 50px ;
+    width: 595px;
+    height: 198px;
+}
+.card4 {
+    display: flex;
+    justify-content:right;
+    width: 100%;
+    height: 252px;
+    background:black;
+    position: relative;
+    bottom: 70px;
+}
+.watchCard4 {
+    width: 100%;
+    height: 103px;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+.h1-card4 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.h2-card4 {
+    font-size: 26px;
+    font-weight: lighter;
+    width: 547px;
+    margin-top: 19px;
+}
+.card5{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content:center;
+    background: black;
+    position: relative;
+    bottom: 60px;
+}
+.kidCard {
+    display: flex;
+    justify-content:center;
+    margin-left: 60px;
+    width: 1100px;
+    height: 383px;
+}
+.createKid {
+    width: 504px;
+    height: 378px;
+}
+.kid {
+    margin-top: 76px;
+}
+.createKidText {
+    margin-top: 74px;
+    padding-top: 74px;
+}
+.createKidText1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}   
+.createKidText2 {
+    font-size: 26px;
+    font-weight: lighter;
+}
+.card6{
+    width: 100%;
+    height: 928px;
+    background:black;
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+}
+.h1-card6 {
+    font-size: 50px;
+    text-align: center;
+}
+.questList {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.buttonList {
+    width: 815px;
+    height: 74px;
+    color: white;
+    background: #303030;
+    font-size: 26px;
+    margin-right: 15px;
+    text-align: left;
+}
+.spanList {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 815px;
+    text-align: left;
+}
+.spanList1{
+    height: 326px;
+    display: none;  
+
+}
+.spanList2{
+    height: 162px; 
+    display: none;   
+}
+.spanList3{
+    height: 426px;
+    display: none;  
+}
+.spanList4{
+    height: 195px;
+    display: none;  
+}
+.spanList5{
+    height: 162px;
+    display: none;  
+}
+.spanList6{
+    height: 294px;
+    display: none;  
+}
+.wrap-Footer {
+    width: 100%;
+    position: relative;
+    top: -40px;
+    height: 426px;
+    display: flex;
+    justify-content: center;
+    background-color: black
+}
+.Footer {
+    width: 1440px;
+    height: 426px;
+}
+.footer-list {
+    margin-top: 3%;
+    list-style: none;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: 40px 40px 40px 40px;
+    color: #757575;
+    font-size: 13px;
+}
+.moreQuest {
+    font-size: 16px;
+    color: #757575;
+    margin-left: 36px;
+    margin-top: 40px;
+}
+
+
+
+
+
+

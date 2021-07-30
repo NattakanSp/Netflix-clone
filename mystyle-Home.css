@@ -1,0 +1,88 @@
+body {
+    margin:0;
+}
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #141414;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+    width: 1440px;
+    height:8000px;
+}
+  .header {
+    background-color: black;
+    width:1440px;
+    height: 68px;
+    position: fixed;
+    display: flex;
+    background: transparent;  
+    justify-content: space-between;
+  }
+  .Showcase-overall {
+    background-image:url("Showcase-image.png"); 
+    width: 100%;
+    height: 810px;
+    z-index: 0;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .Nav1 {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .Menubar-List{
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  .LogoImg{
+    top: 20px;
+  }
+.trailer-preview-showcase {
+  position: relative;
+  top: 80px;
+}
+.Showcase-text {
+ width: 400px;
+ height: 74px;
+ margin-left: 30px;
+ font-size: 20px;
+ text-align: left;
+}
+.ShowcasePlay {
+  position: relative;
+  width: 322px;
+  height: 38px;
+  overflow: hidden;
+  top: 120px;
+  left: 30px;
+}
+.ShowcasePlay1{
+  height: 38px;
+  text-decoration: none;
+  border: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  text-align: center;
+}
+.ShowcasePlay2 {
+  margin-left: 5px;
+  height: 38px;
+  text-decoration: none;
+  border: none;
+  background-color: rgba(109,109,110,0.7);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  text-align: center; 
+}
